@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/css/mdb.min.css" rel="stylesheet"><!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/css/mdb.min.css" rel="stylesheet"><!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/css/mdb.min.css" rel="stylesheet">
+
+<!-- Google Fonfs -->
+<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+
+
+<style type="text/css">
+	.view {
+    background: url("assets/images/schuitt.jpg") no-repeat center center;
+    /*opacity: 0.8;*/
+    background-size: cover;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
+
+#forward{
+    animation:  moving 1.5s linear infinite; 
+}
+
+#upDown{
+    animation:  jump 0.5s linear infinite; 
+}
+
+@keyframes moving{
+    0%{transform: translateX(-3px);}
+/*    50%{transform: translateX(0);}*/
+    100%{transform: translateX(3px);}
+}
+
+@keyframes jump{
+    0%{transform: translateY(0px);}
+/*    50%{transform: translateX(0);}*/
+    100%{transform: translateY(-3px);}
+}
+
+.btnStyle:hover{
+    transform: scale(1.1);
+}
+
+h1{
+    animation: typing 1s linear;
+    overflow: hidden;
+    white-space: nowrap;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes typing{
+    from{
+        width: 0;transform: translateX(46%);
+    }
+
+    to{
+        width: 600px;transform: translateX(45%);
+    }
+}
+
+#dissappear{
+    animation:  gone 1s linear;
+}
+
+@keyframes gone{
+    0%{opacity: 0;visibility: visible;}
+    
+    100%{opacity: 1;visibility: visible;}
+
+}
+
+.scaleNav:hover{
+    transform: scale(1.1);
+}
+
+</style>
+
+<!-- Font awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+
+
+<body>
+
+<html lang="en" class="full-height">
+
+<!--Main Navigation-->
+<header>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+        <a class="navbar-brand scaleNav" href="#"><strong style="font-family: 'Ubuntu', sans-serif;"><i class="fas fa-laptop"></i> Schuitt</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link scaleNav" href="home.html"><i class="fas fa-home"></i> Home <div class="sr-only">(current)></div></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scaleNav" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scaleNav" href="home.html#team">Our Staff</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scaleNav" href="#">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="view intro-2" >
+        <div class="full-bg-img">
+            <div class="mask rgba-stylish-strong flex-center">
+                <div class="container text-center white-text wow fadeInUp ">
+                    <div style="opacity: 1;text-shadow: 1px 1px black;font-family: 'Arvo', serif;">
+                        <h1>Be a Rockstar Programmer!</h1>
+                        <br>
+                      
+                        <h5 id="dissappear">We partnered with the best companies in the IT Industry. Get the option to get hired before finishing the course by showing your skills taught by our instructors!</h5>
+                        <a href="home.html"><button class="btn btn-primary btnStyle mt-3" id="dissappear">Learn More  <i class="fas fa-forward ml-1" id="forward"></i></button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<!--Main Navigation-->
+
+
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small unique-color-dark pt-2" style="position: fixed;width: 100%;">
+
+    <!-- Footer Elements -->
+    <div class="container">
+
+      <!-- Call to action -->
+      <ul class="list-unstyled list-inline text-center py-2">
+        <li class="list-inline-item">
+          <h5 class="mb-1">Register & Enroll Now!</h5>
+        </li>
+        <li class="list-inline-item">
+          <a href="#!" class="btn btn-outline-white btn-rounded btnStyle">Sign up!</a>
+        </li>
+      </ul>
+      <!-- Call to action -->
+
+    </div>
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="https://mdbootstrap.com/bootstrap-tutorial/"> wwww.schuitt.com</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+
+    <script type="text/javascript">
+        
+
+    </script>    
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/js/mdb.min.js"></script><!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/js/mdb.min.js"></script>
+
+</body>
+
+
+
+</html>
