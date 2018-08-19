@@ -1,0 +1,450 @@
+.navStyle{
+	font-family: open-sans, sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+
+
+.navSize{
+    width: 155px;
+    background-color: transparent;
+    height: 80px;
+    position: relative;
+    line-height: 65px;
+}
+
+.navSize2{
+    width: 196px;
+    background-color: transparent;
+    height: 80px;
+    position: relative;
+    line-height: 65px;
+}
+
+.navSize3{
+    width: 140px;
+    background-color: transparent;
+    height: 80px;
+    position: relative;
+    line-height: 65px;
+}
+
+.navSizeDrop{
+    width: 200px;
+}
+
+.dropdown:hover>.dropdown-menu{
+	display: block;
+}
+.dropdown-toggle::after {
+    display:none;
+}
+
+.dropdown-menu{
+	left:-40px;
+	right:-40px;
+}
+
+li .navScale a:hover
+{
+	background-color: #D51130;
+	color: white;
+}
+
+li .navScale .firstLink:hover{
+	background-color: #D51130;
+}
+
+li .navScale .firstLink{
+	background-color: #f2f2f2;
+}
+
+.linkColor{
+	color: grey;
+}
+
+.linkColor:hover{
+	color: white;
+}
+
+.mainLink:hover{
+	color: #D51130;
+}
+
+.mainLink{
+	color: lightgrey;
+}
+
+.cardText1{
+	margin-top: 163px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: open-sans, sans-serif;
+    font-weight: 700;
+}
+
+.cardText2{
+    font-size: 14px;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+}
+
+
+.img-wrapper{
+	position: relative;
+}
+
+.imagePosition{
+	transform: translateY(-38px);
+
+}
+
+.dateWrapper{
+	width: 100px;
+    background-color: #D51130;
+    padding-bottom: 6px;
+
+}
+
+
+.baseFont{
+	font-size: 13px;
+	font-weight:300;
+}
+
+.greyBg{
+	position: relative;
+	background-color: #f2f2f2;	
+}
+
+.effectFooter:hover{
+	color: #D51130;
+}
+
+.mainTitle{
+    font-size: 70px;
+    line-height: 60px;
+    font-family: open-sans, sans-serif;
+    font-weight: 700;
+}
+
+#subTitle{
+    font-size: 32px;
+    line-height: 38px;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+}
+
+.pageOpening{
+	background-color: transparent;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 88px;
+    position: relative;
+}
+
+.sectionMargin{
+	margin-bottom: 60px;
+	margin-top: 160px;
+}
+
+ .branchenIntro{
+    z-index: 4;
+/*    width: 1160px;*/
+    min-height: 173px;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+/*    margin-left: 141px;*/
+    margin-top: 157px;
+    position: relative;
+}
+
+.branchenTitle{
+    font-size: 75px;
+    line-height: 84px;
+
+    font-weight: 500;
+}
+
+.branchenSubTitle{
+    font-size: 32px;
+    line-height: 38px;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+}
+
+
+.branchenSecond{
+	position: relative;
+	background-color: white;
+	min-height: 434px;
+	padding-bottom: 56px;
+}
+
+.branchenInsideHeading {
+    font-size: 33px;
+    line-height: 53px;
+    font-family: open-sans, sans-serif;
+    font-weight: 100 !important;
+    color: #666;
+    margin-top: 85px;
+}
+
+.branchenSubHeading {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+/*    width: 1000px;*/
+    text-align: center;
+    margin-left: 93px;
+}
+
+.breakP {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+}
+
+.branchenNext{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #666;
+}
+
+.imgQuote1{
+	position: relative;
+	transform: rotate(180deg);
+	top: 10px;
+
+}
+
+.imgQuote2{
+	position: relative;
+	bottom: 10px;
+}
+
+.branchenNext2{
+    font-size: 17px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #666;
+    padding-top: 30px;
+}
+
+.datev{
+	min-height: 86px;
+    background-color: transparent;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 70px;
+    line-height: 84px;
+    font-family: open-sans, sans-serif;
+    font-weight: 700;
+    padding-top: 195px;
+    padding-bottom: 82px;
+}
+
+.datevMenu{
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: 300;
+}
+
+.datevMenu2{
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: 300;
+	color: #D51130;
+}
+
+.datevMenuHead{
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: 700;
+}
+
+.datevContent{
+	font-size: 13px;
+    text-align: left;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+    width: 659px;
+    min-height: 96px;
+    padding-top: 72px;
+}
+
+.datevButton{
+	width: 360px;
+    min-height: 30px;
+    background-color: #D51130;
+    padding-top: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 20px;
+    font-family: open-sans, sans-serif;
+    font-weight: 700;
+    margin-top: 25px;
+    font-size: 13px;
+    padding-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+
+
+.srFocusInsideHeading{
+    font-size: 35px;
+    line-height: 35px;
+    color: #DD2516;
+    font-weight: 300;
+    margin-top: 105px;
+}
+
+
+ .srFocusInsideHeading2{
+    font-size: 35px;
+    line-height: 35px;
+    color: #666666;
+    font-weight: 300;
+}
+
+
+
+.focusBox{
+    width: 360px;
+    background-color: #DD2516;
+    position: relative;
+
+}
+
+.focusBox2{
+    width: 640px;
+    /*background-color: #DD2516;*/
+    position: relative;
+    background-color: white;
+    padding-top: 50px;
+
+
+}
+
+.srServer{
+    font-size: 35px;
+    line-height: 15px;
+    font-weight: 800;
+    color: white;
+
+}
+
+.srManage{
+    font-size: 16px;
+    line-height: 19px;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+    margin-top: 61px;   
+}
+
+
+.srManage2{
+    font-size: 16px;
+    line-height: 19px;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 0px;   
+}
+
+.srFooter{
+    padding-bottom: 70px;
+}
+
+.srFooter2{
+    padding-bottom: 70px;
+    padding-top: 109px;
+}
+
+.sr_partition{
+    width: 141px;
+}
+
+
+table.table th {
+    padding-top: 1.1rem;
+    padding-bottom: 1.5rem;
+}
+
+
+
+table.table th{
+    border-width: 0;
+}
+
+table.table td{
+    padding-bottom: 0;
+}
+
+.checkBox{
+    width: 20px;
+    height: 20px;
+    background-color: #DD2516;
+    position: relative;
+    left: 57px;
+    top: 10px;
+}
+
+.thFont{
+    min-height: 30px;
+    color: #DD2516;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+}
+
+
+tr.noBorder td {
+  border: 0 !important;
+}
+
+
+.srButton{
+    width: 260px;
+    min-height: 29px;
+    background-color: #D51130;
+    padding-top: -4px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 44px;
+    font-weight: 700;
+    font-size: 14.5px;
+}
+
+.circle{
+    width: 196px;
+    height: 196px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #DD2516;
+    background-color: transparent;
+    border-radius: 50%;
+    padding-bottom: 26px;   
+}
+
+.circleContent{
+    width: 160px;
+    background-color: transparent;
+    text-align: center;
+    margin-top: 30px;
+    left: 18px;
+}
+
+.circleText{
+    font-size: 35px;
+    line-height: 8px;
+    color: #DD2516;
+    font-weight: 700;
+    padding-top: 21px;
+}

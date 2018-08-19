@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/css/mdb.min.css" rel="stylesheet">
+
+<!-- Google Fonfs -->
+<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+<style type="text/css">
+.viewa {
+    background: url("https://user.ffuf.de/kewang/sr/images/fotolia_173860809.jpg?crc=236576933") no-repeat center center;
+    /*opacity: 0.8;*/
+/*    background-size: cover;*/
+
+}
+.viewb {
+    background: url("https://user.ffuf.de/kewang/sr/images/fotolia_174936567.jpg?crc=4219759901") no-repeat center center;
+    /*opacity: 0.8;*/
+}
+
+.viewc{
+    background: url("https://user.ffuf.de/kewang/sr/images/fotolia_161794431.jpg?crc=425883356") no-repeat center center;
+    /*opacity: 0.8;*/
+    background-size: cover;
+}
+
+.viewd {
+    background: url("https://user.ffuf.de/kewang/sr/images/fotolia_169357911.jpg?crc=137610761") no-repeat center center;
+    /*opacity: 0.8;*/
+    background-size: cover;
+}
+
+.viewe {
+    background: url("https://user.ffuf.de/kewang/sr/images/fotolia_164606851.jpg?crc=4285802886") no-repeat center center;
+    /*opacity: 0.8;*/
+    background-size: cover;
+}
+
+.viewf {
+    background: url("https://user.ffuf.de/kewang/sr/images/fotolia_119126061_subscription_monthly_xxl-u9194-fr.jpg?crc=204796567") no-repeat center center;
+    /*opacity: 0.8;*/
+    background-size: cover;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: white;
+    }
+
+
+</style>
+
+<!-- Font awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-white scrolling-navbar p-0">
+			        <a class="navbar-brand scaleNav ml-5" href="#"><strong style="font-family: 'Ubuntu', sans-serif;"><img src="assets/images/ffuf.png" height="40" width="243"></strong></a>
+			        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			            <span class="navbar-toggler-icon"></span>
+			        </button>
+			        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			            <ul class="navbar-nav ml-auto">
+					      <li class="nav-item dropdown m-0 p-0">
+					        <a class=" navStyle navSize nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					          <span class="mainLink">UNTERNEHMEN</span>
+					        </a>
+						        <div class="navScale navStyle navSizeDrop dropdown-menu text-center p-0" aria-labelledby="navbarDropdown">
+									<a class="firstLink dropdown-item d-block grey-text" href="#"><span class="linkColor">UNTERNEHMEN</span></a>
+									<a class="dropdown-item d-block" href="#"><span class="linkColor">Aktuelles</span></a>
+									<a class="dropdown-item d-block" href="#"><span class="linkColor">Karriere</span></a>
+									<a class="dropdown-item d-block" href="#"><span class="linkColor">Soziales/Sponsoring</span></a>
+								</div>
+					      </li>
+
+					      <li class="nav-item dropdown m-0 p-0">
+					        <a class="navStyle navSize nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					          <span class="mainLink">IT-LOSUNGEN</span>
+					        </a>
+						        <div class="navScale navStyle navSizeDrop dropdown-menu text-center p-0" aria-labelledby="navbarDropdown">
+									<a class="firstLink dropdown-item d-block grey-text" href="#"><span class="linkColor">IT-LOSUNGEN</span></a>
+									<a class="dropdown-item d-block" href="#"><span class="linkColor">Client Management</span></a>
+									<a class="dropdown-item d-block" href="#"><span class="linkColor">Server & Storage</span></a>
+									<a class="dropdown-item d-block" href="#"><span class="linkColor">Networking Solutions</span></a>
+									<a class="dropdown-item d-block" href="#"><span class="linkColor">Virtualisierung</span></a>
+									<a class="dropdown-item d-block" href="#"><span class="linkColor">Security</span></a>
+									<a class="dropdown-item d-block" href="#"><span class="linkColor">Zeiterfassung</span></a>
+								</div>
+					      </li>
+
+					      <li class="nav-item dropdown m-0 p-0">
+					        <a class="navStyle navSize2 nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					          <span class="mainLink">BRANCHENLOSUNGEN</span>
+					        </a>
+						        <div class="navScale navStyle navSizeDrop dropdown-menu text-center p-0" aria-labelledby="navbarDropdown">
+									<a class="firstLink dropdown-item d-block grey-text" href="#"><span class="linkColor">BRANCHENLOSUNGEN</span></a>
+									<a class="dropdown-item d-block" href="#"><span class="linkColor">Volkshochschule</span></a>
+									<a class="dropdown-item d-block" href="#"><span class="linkColor">Hotel & Gastro</span></a>
+									<a class="dropdown-item d-block" href="#"><span class="linkColor">DateV</span></a>
+								</div>
+					      </li>
+
+						   <li class="nav-item dropdown m-0 p-0">
+					        <a class="navStyle navSize nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					          <span class="mainLink">SR-SERVICES</span>
+					        </a>
+						        <div class="navScale navStyle navSizeDrop dropdown-menu text-center p-0" aria-labelledby="navbarDropdown">
+									<a class="firstLink dropdown-item d-block" href="#"><span class="linkColor">SR-SERVICES</span></a>
+									<a class="dropdown-item d-block" href="#"><span class="linkColor">SR_FOCUS</span></a>
+									<a class="dropdown-item d-block" href="#"><span class="linkColor">SR_SPAM</span></a>
+									<a class="dropdown-item d-block" href="#"><span class="linkColor">SR_ANALYZE</span></a>
+								</div>
+					      	</li>
+
+			               	<li class="nav-item">
+			                    <a class="nav-link navStyle scaleNav navSize" href="#"><span class="mainLink">FERN WARTUNG</span></a>
+			                </li>
+			                <li class="nav-item" style="background-color: #D51130;">
+			                    <a class="nav-link navStyle scaleNav navSize text-center" href="#">
+			                    	<img src="assets/images/support.png" height="20" width="20"> SUPPORT</a>
+			                </li>
+			            </ul>
+			        </div>
+			    </nav>
+			<!-- end main navigation -->
+
+
+
+<div class="col-md-12 p-0" style="position: fixed;">
+	 <div >
+	        <div class="">
+	            <img class="d-block w-100" src="https://user.ffuf.de/kewang/sr/images/240-29-tech-black-grey-squares%20copy.jpg?crc=318916745" alt="First slide" style="box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);">
+	        </div>
+	</div>		
+</div>
+
+
+	<div class="container-fluid pb-5">
+		<div class="row">
+			<div class="col-md-2 col-sm-2 col-2"></div>
+			<div class="col-md-8 col-sm-12 col-8 branchenIntro">
+				<img src="https://user.ffuf.de/kewang/sr/images/pasted-svg-1750599x518.svg?crc=4285776583" width="500" height="148">
+			</div>
+			<div class="col-md-2 col-sm-2 col-2"></div>
+		</div>
+	</div>
+
+	<div class="container-fluid branchenSecond">
+		<div class="row branchenAlign">
+			<div class="col-md-2"></div>
+			<div class="col-md-8 text-center">
+				<p class="srFocusInsideHeading mb-0">MEHR SICHERHEIT</p>
+				<p class="srFocusInsideHeading2 mb-0">FÜR IHR UNTERNEHMEN</p>
+				<p class="srFocusInsideHeading2 mb-0">DURCH SYSTEMATISCHE IT-BETREUUNGT</p>
+				<p class="breakP mb-0">&nbsp;</p>
+				<p class="grey-text branchenSubHeading"> 
+				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>
+
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+	</div>
+
+
+
+	<!-- Projects section v.1  INTRO--> 
+		<div class="container-fluid greyBg" id="front" style="z-index: 2;padding-top: 70px;">
+
+			<div class="row">
+				<div class="col-md-2 p-0"></div>
+
+				<div class="col-md-8">
+					<section class="text-center mt-4">
+
+					  <!-- Grid row -->
+					  <div class="row text-left">
+
+						    <!-- Grid column -->
+						    <div class="col-lg-12 col-md-12 mb-md-0 mb-4 col-12 col-sm-12 pb-5 mx-0 px-0" style="animation-duration: 2s;">
+
+						      <!--Featured image-->
+						      <div class=" card" style="width: 1160px;position: relative;left: 88px;">
+						      	<div class="row">
+						    		<div class=" col-md-4">
+								    	<div class="focusBox" style="float: left;">
+								      	
+								      	<p class="srManage pl-5 white-text">Managed Service Paket</p>
+
+									      <div class=" overlay pl-5 pb-3" style="height: 267px;">
+									        <p class="srServer">SERVER</p>
+									         <img src="https://user.ffuf.de/kewang/sr/images/box-1-1.png?crc=400936884" width="396" height="370" style="position: relative;bottom: 50px;left: 50px;">
+									      </div>
+
+									      <!--Excerpt-->
+									      <div class="card-body pl-5 mt-0 srFooter">
+									       <!--  <h4 class="font-weight-bold my-3">Basic HTML,CSS and Bootstrap4</h4> -->
+									        <p class="srManage2">Unser</p>
+									        <p class="srManage2">Leistungsspektrum</p>
+									        <p class="srManage2">für die Betreuung</p>
+									        <p class="srManage2">Ihrer Server</p>
+
+									      </div>
+									    </div> 	
+						    		</div>
+						    		<div class=" col-md-8">
+
+								      	<div class="focusBox2" style="float: right;">
+								      	
+											<table class="table text-center" style="width: 564px;">
+
+											  <tbody>
+											    <tr class="sr_partition" >
+											      <th scope="row" class="sr_partition"></th>
+											      <th class="sr_partition thFont b-0">BASIC</th>
+											      <th class="sr_partition thFont">STANDARD</th>
+											      <th class="sr_partition thFont">PREMIUM</th>
+											    </tr>
+											    <tr class="text-center noBorder">
+											      <td scope="row" class="sr_partition"><p style="width: 110px;">Lorem ipsum dolor sit amet consecteteur</p></td>
+											      <td class="sr_partition"><div class="checkBox"></div></td>
+											      <td class="sr_partition"><div class="checkBox"></div></td>
+											      <td class="sr_partition"><div class="checkBox"></div></td>
+											    </tr>
+											    <tr class="sr_partition">
+											      <td scope="row"><p style="width: 110px;">Lorem ipsum dolor sit amet</p></td>
+											      <td></td>
+											      <td><div class="checkBox"></div></td>
+											      <td><div class="checkBox"></div></td>
+											    </tr>
+											    <tr class="sr_partition">
+											      <td scope="row"><p style="width: 110px;">Lorem ipsum dolor sit amet</p></td>
+											      <td><div class="checkBox"></div></td>
+											      <td></td>
+											      <td><div class="checkBox"></div></td>
+											    </tr>	
+											  </tbody>
+											</table>
+											<br>
+											<br>
+											<div class="srButton" style="float: left;margin-left: 20px;">
+												<span>ANGEBOT ANFORDERN</span>
+											</div>
+											<div class="srButton" style="float: left;margin-left: 30px;">
+												<span>ANGEBOT ANFORDERN</span>
+											</div>
+
+									    </div>
+						    		</div>
+						    	</div>
+
+
+
+						      </div>
+						    </div>
+						    <!-- Grid column -->
+
+						    <!-- Grid column -->
+						    <div class="col-lg-12 col-md-12 mb-md-0 mb-4 col-12 col-sm-12 pb-5 mx-0 px-0" style="animation-duration: 2s;">
+
+						      <!--Featured image-->
+						      <div class=" card" style="width: 1160px;position: relative;left: 88px;">
+						      	<div class="row">
+						    		<div class=" col-md-4">
+								    	<div class="focusBox" style="float: left;">
+								      	
+								      	<p class="srManage pl-5 white-text">Managed Service Paket</p>
+
+									      <div class=" overlay pl-5 pb-3" style="height: 267px;">
+									        <p class="srServer">DATEN-</p>
+									        <p class="srServer">SCHUTZ</p>
+									         <img src="https://user.ffuf.de/kewang/sr/images/box-2-1.png?crc=4193062310" width="396" height="370" style="position: relative;bottom: 50px;left: 50px;">
+									      </div>
+
+									      <!--Excerpt-->
+									      <div class="card-body pl-5 mt-0 srFooter2">
+									       <!--  <h4 class="font-weight-bold my-3">Basic HTML,CSS and Bootstrap4</h4> -->
+									        <p class="srManage2">Unser</p>
+									        <p class="srManage2">Leistungsspektrum</p>
+									        <p class="srManage2">für die Betreuung</p>
+									        <p class="srManage2">Ihrer Server</p>
+
+									      </div>
+									    </div> 	
+						    		</div>
+						    		<div class=" col-md-8">
+
+								      	<div class="focusBox2" style="float: right;">
+								      	
+											<table class="table text-center" style="width: 564px;">
+
+											  <tbody>
+											    <tr class="sr_partition" >
+											      <th scope="row" class="sr_partition"></th>
+											      <th class="sr_partition thFont b-0">BASIC</th>
+											      <th class="sr_partition thFont">STANDARD</th>
+											      <th class="sr_partition thFont">PREMIUM</th>
+											    </tr>
+											    <tr class="text-center noBorder">
+											      <td scope="row" class="sr_partition"><p style="width: 110px;">Lorem ipsum dolor sit amet consecteteur</p></td>
+											      <td class="sr_partition"><div class="checkBox"></div></td>
+											      <td class="sr_partition"><div class="checkBox"></div></td>
+											      <td class="sr_partition"><div class="checkBox"></div></td>
+											    </tr>
+											    <tr class="sr_partition">
+											      <td scope="row"><p style="width: 110px;">Lorem ipsum dolor sit amet</p></td>
+											      <td><div class="checkBox"></div></td>
+											      <td><div class="checkBox"></div></td>
+											      <td><div class="checkBox"></div></td>
+											    </tr>
+											    <tr class="sr_partition">
+											      <td scope="row"><p style="width: 110px;">Lorem ipsum dolor sit amet</p></td>
+											      <td></td>
+											      <td><div class="checkBox"></div></td>
+											      <td><div class="checkBox"></div></td>
+											    </tr>
+											    <tr class="sr_partition">
+											      <td scope="row"><p style="width: 110px;">Lorem ipsum dolor sit amet</p></td>
+											      <td><div class="checkBox"></div></td>
+											      <td><div class="checkBox"></div></td>
+											      <td><div class="checkBox"></div></td>
+											    </tr>
+											    <tr class="sr_partition">
+											      <td scope="row"><p style="width: 110px;">Lorem ipsum dolor sit amet</p></td>
+											      <td></td>
+											      <td></td>
+											      <td><div class="checkBox"></div></td>
+											    </tr>											    											    	
+											  </tbody>
+											</table>
+
+											<div class="srButton" style="float: left;margin-left: 20px;">
+												<span>ANGEBOT ANFORDERN</span>
+											</div>
+											<div class="srButton" style="float: left;margin-left: 30px;">
+												<span>ANGEBOT ANFORDERN</span>
+											</div>
+
+									    </div>
+						    		</div>
+						    	</div>
+
+
+
+						      </div>
+						    </div>
+						    <!-- Grid column -->
+
+
+						    						    <!-- Grid column -->
+						    <div class="col-lg-12 col-md-12 mb-md-0 mb-4 col-12 col-sm-12 pb-5 mx-0 px-0" style="animation-duration: 2s;">
+
+						      <!--Featured image-->
+						      <div class=" card" style="width: 1160px;position: relative;left: 88px;">
+						      	<div class="row">
+						    		<div class=" col-md-4">
+								    	<div class="focusBox" style="float: left;">
+								      	
+								      	<p class="srManage pl-5 white-text">Managed Service Paket</p>
+
+									      <div class=" overlay pl-5 pb-3" style="height: 267px;">
+									        <p class="srServer">CLIENT</p>
+									         <img src="https://user.ffuf.de/kewang/sr/images/box-3-1.png?crc=236302369" width="396" height="370" style="position: relative;bottom: 50px;left: 50px;">
+									      </div>
+
+									      <!--Excerpt-->
+									      <div class="card-body pl-5 mt-0 srFooter">
+									       <!--  <h4 class="font-weight-bold my-3">Basic HTML,CSS and Bootstrap4</h4> -->
+									        <p class="srManage2">Unser</p>
+									        <p class="srManage2">Leistungsspektrum</p>
+									        <p class="srManage2">für die Betreuung</p>
+									        <p class="srManage2">Ihrer Server</p>
+
+									      </div>
+									    </div> 	
+						    		</div>
+						    		<div class=" col-md-8">
+
+								      	<div class="focusBox2" style="float: right;">
+								      	
+											<table class="table text-center" style="width: 564px;">
+
+											  <tbody>
+											    <tr class="sr_partition" >
+											      <th scope="row" class="sr_partition"></th>
+											      <th class="sr_partition thFont b-0">BASIC</th>
+											      <th class="sr_partition thFont">STANDARD</th>
+											      <th class="sr_partition thFont">PREMIUM</th>
+											    </tr>
+											    <tr class="text-center noBorder">
+											      <td scope="row" class="sr_partition"><p style="width: 110px;">Lorem ipsum dolor sit amet consecteteur</p></td>
+											      <td class="sr_partition"><div class="checkBox"></div></td>
+											      <td class="sr_partition"><div class="checkBox"></div></td>
+											      <td class="sr_partition"><div class="checkBox"></div></td>
+											    </tr>
+											    <tr class="sr_partition">
+											      <td scope="row"><p style="width: 110px;">Lorem ipsum dolor sit amet</p></td>
+											      <td></td>
+											      <td><div class="checkBox"></div></td>
+											      <td><div class="checkBox"></div></td>
+											    </tr>
+											    <tr class="sr_partition">
+											      <td scope="row"><p style="width: 110px;">Lorem ipsum dolor sit amet</p></td>
+											      <td></td>
+											      <td></td>
+											      <td><div class="checkBox"></div></td>
+											    </tr>	
+											  </tbody>
+											</table>
+											<br>
+											<br>
+											<div class="srButton" style="float: left;margin-left: 20px;">
+												<span>ANGEBOT ANFORDERN</span>
+											</div>
+											<div class="srButton" style="float: left;margin-left: 30px;">
+												<span>ANGEBOT ANFORDERN</span>
+											</div>
+
+									    </div>
+						    		</div>
+						    	</div>
+
+
+
+						      </div>
+						    </div>
+						    <!-- Grid column -->
+
+
+						</div>
+					    <!-- Grid column -->
+					</section>		
+				</div>	
+
+				<div class="col-md-2 p-0"></div>	
+			</div>
+
+
+				    <!-- Grid column -->
+				</section>		
+			</div>	
+
+			<div class="col-md-2 p-0"></div>	
+		</div>
+
+		</div>
+	<!-- Projects section v.1 END INTRO-->
+
+
+	<div class="container-fluid branchenSecond">
+		<div class="row branchenAlign">
+			<div class="col-md-2"></div>
+			<div class="col-md-8 text-center" style="min-height: 109px;">
+				<p class="srFocusInsideHeading2 mb-0" style="margin-top: 105px;">5 GRÜNDE, WARUM (SELEKTIVES) AUSLAGERN</p>
+				<p class="srFocusInsideHeading2 mb-0">VON IT-LEISTUNGEN SINN MACHT:</p>
+				<p class="breakP mb-0">&nbsp;</p>
+
+				<div class="circle">
+					<div class="circleContent"></div>
+					<p class="circleText mb-0">01.<p>
+					<p>	Sie sparen Kapital und Zeitresourcen</p>	
+				</div>
+			</div>
+
+
+			<div class="col-md-2"></div>
+		</div>
+	</div>
+
+
+
+
+
+
+<div class="container-fluid">
+	<div style="background-color: transparent;position: relative;">
+
+	<!-- Section: Features v.2 -->
+	<section class=" my-5">
+
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				  <!-- Section heading -->
+				  <p class="white-text text-center mt-5" style="font-size: 35px;font-weight: 300;">KONTAKTIEREN SIE UNS</p>
+				  <!-- Section description -->
+				  <p class=" white-text text-center mb-5" style="font-size: 16px;">Wir freuen uns sehr, wenn Sie die Gelegenheit nutzen und sich auf unseren Seiten einen Eindruck uber uns verschaffen. <br> Oder rufen Sie uns einfach an – Ihre Anforderungen sind unsere Herausforderungen!</p>
+			</div>
+		
+			<div class="col-md-2"></div>
+		</div>
+
+
+
+		  <!-- Grid row -->
+		<div class="row ">
+
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<div class="row">
+									<!-- Grid column -->
+			    <div class="col-lg-3 col-md-3 pb-5 wow fadeInLeft" style="animation-duration: 2.5s">
+			      
+			      <p class="white-text my-4" style="font-weight: 300">TELEFON</p>
+			      <p class="white-text" style="font-size: 32px;line-height: 0px;">(07144) 8963-0
+			      </p>
+
+			    </div>
+			    <!-- Grid column -->
+
+			    <!-- Grid column -->
+			    <div class="col-lg-3 col-md-3pb-5 wow fadeInLeft" style="animation-duration: 2.5s">
+				  
+			      <p class="white-text my-4" style="font-weight: 300">TELEFAX</p>
+			      <p class="white-text" style="font-size: 32px;line-height: 0px;">(07144) 8963-13
+			      </p>
+
+			    </div>
+			    <!-- Grid column -->
+
+			    <!-- Grid column -->
+			    <div class="col-lg-3 col-md-3 pb-5 wow fadeInLeft" style="animation-duration: 2.5s">
+			     
+			      <p class="white-text my-4" style="font-weight: 300">E-MAIL</p>
+			      <p class="white-text " style="font-size: 32px;line-height: 0px;">info@s-r.it
+			      </p>
+
+			    </div>
+
+			    <div class="col-lg-3 col-md-3 pb-5 wow fadeInLeft" style="animation-duration: 2.5s">
+			      <p class="white-text my-4" style="font-weight: 300">ADDRESSE</p>
+			      <p class="white-text" style="font-size: 32px;line-height: 0px;">Siemensstrabe 10</p>
+			      <p class="white-text" style="font-size: 32px;line-height: 35px;">71563 Affalterbach</p>
+
+			    </div>
+		    	<!-- Grid column -->
+
+				</div>
+			</div>
+			<div class="col-md-2"></div>
+
+		</div>		 
+
+	</section>
+
+	</div>
+	<!-- Section: Features v.2 -->
+</div>
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="page-footer greyBg" style="color: #666666;">
+
+    <!-- Footer Main -->
+	<div class="container text-center text-md-left" style="padding-top: 69px;padding-bottom: 60px;">
+
+	      <!-- Grid row -->
+	    <div class="row">
+
+	        <!-- Grid column -->
+	        <div class="col-md-4 mx-auto">
+
+	          <!-- Content -->
+	          <img src="https://user.ffuf.de/kewang/sr/images/svg-469251x469.svg?crc=476721861" width="100" height="100">
+
+	        </div>
+	        <!-- Grid column -->
+
+
+	        <!-- Grid column -->
+	        <div class="col-md-2">
+
+	          <div class="text-right " style="border-right: 1px solid #D51130">
+	          	  <p class="mb-0 pr-2" style="font-weight: 700;font-size: 13px;">UNTERNEHMEN </p>
+		          <p class="mb-0 pr-2 baseFont"> >> Uber uns </p>
+				  <p class="mb-0 pr-2 baseFont"> >> Karriere </p>
+		     	  <p class="mb-0 pr-2 baseFont"> >> Soziales / Sponsoring </p>
+		     	  <p class="mb-0 pr-2 baseFont"><span style="visibility: hidden;">X</span> </p>
+		     	  <p class="mb-0 pr-2 baseFont"><span style="visibility: hidden;">X</span> </p>
+		 
+	     	  </div>
+
+	        </div>
+	        <!-- Grid column -->
+
+	               <!-- Grid column -->
+	        <div class="col-md-2">
+
+	          <div class=" text-right" style="border-right: 1px solid #D51130">
+	          	  <p class="mb-0 pr-2" style="font-weight: 700;font-size: 13px;">IT-LOSUNGEN</p>
+		          <p class="mb-0 pr-2 baseFont"> >> Client-Management </p>
+				  <p class="mb-0 pr-2 baseFont"> >> Server & Storage </p>
+		     	  <p class="mb-0 pr-2 baseFont"> >> Networking Solutions </p>
+		     	  <p class="mb-0 pr-2 baseFont"> >> Virtualisierung </p>
+		     	  <p class="mb-0 pr-2 baseFont"> >> Security </p>
+
+	     	  </div>
+
+	        </div>
+	        <!-- Grid column -->
+
+	        <!-- Grid column -->
+	        <!-- Grid column -->
+	        <div class="col-md-2">
+
+	     	  <div class="text-right" style="border-right: 1px solid #D51130">
+	          	  <p class="mb-0 pr-2" style="font-weight: 700;font-size: 13px;">BRANCHENLOSUNGEN</p>
+		          <p class="mb-0 pr-2 baseFont"> >> Volkshochschulen </p>
+				  <p class="mb-0 pr-2 baseFont"> >> Hotel & Gastro </p>
+		     	  <p class="mb-0 pr-2 baseFont"> >> Datev </p>
+		     	  <p class="mb-0 pr-2 baseFont"><span style="visibility: hidden;">X</span> </p>
+		     	  <p class="mb-0 pr-2 baseFont"><span style="visibility: hidden;">X</span> </p>
+
+	     	  </div>
+
+	        </div>
+	        <!-- Grid column -->
+
+	         <!-- Grid column -->
+	        <div class="col-md-2">
+
+
+	          <div class="text-right" style="border-right: 1px solid #D51130">
+	          	  <p class="mb-0 pr-2" style="font-weight: 700;font-size: 13px;">SR_SERVICES</p>
+		          <p class="mb-0 pr-2 baseFont"> >> SR_FOCUS </p>
+				  <p class="mb-0 pr-2 baseFont"> >> SR_SPAM </p>
+		     	  <p class="mb-0 pr-2 baseFont"> >> SR_ANALYZE </p>
+		     	  <p class="mb-0 pr-2 baseFont"><span style="visibility: hidden;">X</span> </p>
+		     	  <p class="mb-0 pr-2 baseFont"><span style="visibility: hidden;">X</span> </p>
+	     	  </div>
+
+	        </div>
+
+
+	        <!-- Grid column -->
+
+	    </div>
+	      <!-- Grid row -->
+
+	</div>
+	    <!-- Footer Main -->
+
+	<!-- Back to Top -->
+	<div class="container">
+		<div class="row">
+		    <div class="col-md-12 text-center">
+	    		<img id="backTop" src="https://user.ffuf.de/kewang/sr/images/svg-265471x215.svg?crc=3937470595" width="30" height="24" style="transform: rotate(180deg);position: relative;top: 10px;">
+	        </div>	
+		</div>
+	</div>
+	<!-- Back to Top -->
+	 
+
+	    <!-- Copyright -->
+	    	<div class="footer-copyright text-center pt-3 row"  style="background-color: lightgrey">
+	    		<div class="col-lg-2 col-md-2"></div>
+	    		<div class="text-right col-lg-4 col-md-4  mt-1 p-0">
+	     			<p class="baseFont p-0" style="color: #666666;">
+						<span class="mr-2 effectFooter">KARRIERE</span>
+						<span class="mr-2 effectFooter">IMPRESSUM</span>
+						<span class="mr-2 effectFooter">DATENSCHUTZ</span>
+						<span class="mr-2 effectFooter">WEBAS-PARTNERSHOP</span>
+						<span class="mr-2 effectFooter">SCHWARZ & ROHLOFF CUP</span>
+					</p>   		
+	    		</div>
+				<div class="text-right col-lg-4 col-md-4 mt-1 " style="color: #666666;">
+				    <p class="baseFont pr-5">&copy; 2018 COPYRIGHT 2017 - SCHWARZ & ROHLOFF</p>
+
+	    		</div>
+	    		<div class="col-lg-2 col-md-2"></div>
+	    	</div>	
+
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/js/mdb.min.js"></script>
+
+<script type="text/javascript">
+    
+	new WOW().init()
+</script> 
+
+<script type="text/javascript">
+
+		$(".carousel").carousel({interval:4000});
+	
+
+</script>
+
+<script type="text/javascript">
+	$('#backTop').click(function(){
+		$('body,html').animate({scrollTop:'0px'},1000)
+	});
+</script>
+</body>
+
+
+
+
+</html>
