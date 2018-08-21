@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .navStyle{
 	font-family: open-sans, sans-serif;
 	font-size: 12px;
@@ -54,6 +61,7 @@ li .navScale a:hover
 
 li .navScale .firstLink:hover{
 	background-color: #D51130;
+    color: white !important;
 }
 
 li .navScale .firstLink{
@@ -206,6 +214,14 @@ li .navScale .firstLink{
 .breakP {
     font-size: 13px;
     line-height: 20px;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+}
+
+
+.breakP2 {
+    font-size: 13px;
+    line-height: 30px;
     font-family: open-sans, sans-serif;
     font-weight: 300;
 }
@@ -438,7 +454,7 @@ tr.noBorder td {
     background-color: transparent;
     text-align: center;
     margin-top: 30px;
-    left: 18px;
+    margin-left: 17px;
 }
 
 .circleText{
@@ -446,5 +462,343 @@ tr.noBorder td {
     line-height: 8px;
     color: #DD2516;
     font-weight: 700;
-    padding-top: 21px;
+    padding-top: 10px;
 }
+
+
+.circleSubText{
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.responseEvent{
+    margin-left: 2rem !important;
+}
+
+
+.responseEvent2{
+    margin-left: 0rem !important;
+}
+
+
+.slideFont{
+    font-size: 70px;
+    line-height: 70px;
+    width: 1000px;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: open-sans, sans-serif;
+}
+
+.buttonSlide {
+    width: 230px;
+    min-height: 30px;
+    background-color: #D51130;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 0px;
+    font-family: open-sans, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+.scrollerPadding{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+
+.firstItem{
+    font-size: 35px;
+    margin-top: 100px;
+}
+
+
+.example{
+    height: 210px;
+}
+
+.maskImg{
+    position: relative;
+}
+
+.maskImg:after{
+    content: "";
+    background: linear-gradient(transparent,rgba(0,0,0,1));
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+
+}
+
+
+.aktContent{
+    font-size: 14px;
+    text-align: left;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+    min-height: 96px;
+}
+
+.aktContent2{
+    width: 460px;
+    height: 400px;
+    margin-top: 72px;
+    background: url("https://user.ffuf.de/kewang/sr/images/csm_hotelcamp2017_powered_by_hsma_und_tourismuszukunft_201710122256300910586_sharingbox_4f6789d299.jpg?crc=3815528180") no-repeat center center;
+    background-size: cover;
+}
+
+
+.aktContent3{
+    width: 460px;
+    height: 400px;
+    margin-top: 72px;
+    background: url("https://user.ffuf.de/kewang/sr/images/fotolia_129281536.jpg?crc=170063335") no-repeat center center;
+    background-size: cover;
+}
+
+
+.aktContent4{
+    width: 460px;
+    height: 400px;
+    margin-top: 72px;
+    background: url("https://user.ffuf.de/kewang/sr/images/fotolia_169357911.jpg?crc=137610761") no-repeat center center;
+    background-size: cover;
+}
+
+.aktWrapper{
+    margin-top: 72px;
+    width: 100px;
+    background-color: #D51130;
+    padding-bottom: 6px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #666;
+    font-family: open-sans, sans-serif;
+
+}
+
+.likeAkt{
+    font-weight: 300;
+    font-size: 12px;
+    color: #666;
+    opacity: 0.8;  
+}
+
+.zeiterHeading{
+    font-size: 35px;
+    line-height: 24px;
+    font-weight: 300;
+    padding-top: 40px;
+    color: #666;
+}
+
+
+.zeiterBenefit {
+    width: 98px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    padding: 19px 13px 11.328905511811058px 14px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+.timeCard{
+    font-size: 17px;
+    line-height: 24px;
+/*    font-family: open-sans, sans-serif;*/
+    font-weight: 700;
+}
+
+.timeContent {
+    font-size: 14px;
+    line-height: 21px;
+/*    font-family: open-sans, sans-serif;*/
+    font-weight: 300;
+}
+
+.timeContent2 {
+    font-size: 16px;
+    line-height: 21px;
+/*    font-family: open-sans, sans-serif;*/
+    font-weight: 300;
+}
+
+.zeiterList{
+    width: 25px;
+    height: 25px;
+    min-height: 23px;
+    border-width: 0px;
+    border-color: transparent;
+    background-color: #FFFFFF;
+    padding-top: 2px;
+    color: #D51130;
+    text-align: center;
+    font-weight: 700;
+}
+
+.listContent{
+    margin-bottom: 0.76rem
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){ 
+
+
+    .responseArrow,.centerImg{
+        width: 0px;
+        height: 0px;
+        margin-top: 0px !important;
+    }
+
+    .scrollSub{
+        width: 339px !important
+    }
+
+
+    .imgResponse{
+        height: 540px !important;
+    }
+
+    .carousel-item{
+        height: 1000px !important;
+    }
+
+
+    .firstItem{
+        font-size: 35px;
+        margin-top: 60px;
+    }
+
+    .scrollerPadding{
+        padding-top: 85px;
+        padding-bottom: 0px;
+    }
+
+
+    .slideFont{
+        font-size: 25px;
+        line-height: 25px;
+        width: 320px;
+        background-color: transparent;
+        color: #ffffff;
+        font-weight: 800;
+        font-family: open-sans, sans-serif;
+    }
+
+
+    .example{
+        height: 80px !important;
+    }
+
+    .responseEvent{
+       margin-left: 3.14rem !important;
+       font-size: 13px !important;
+    }
+
+    .hook{
+        width: 0px;
+        height: 0px;
+    }
+
+    .dateResponse{
+        margin-bottom: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .img-wrapper{
+        height: 200px !important;
+    }
+
+    .buttonAkt{
+        width: 302px !important;
+    }
+
+    .testiPosition{
+        right: 0px !important;
+    }
+
+    .footerImg{
+        padding-top: 0px !important;
+    }
+
+    .footerImg2{
+        padding-bottom: 10px !important;
+    }
+
+    .bgKontak{
+        background-color: grey !important;
+    }
+}
+
+
+
+@media (min-width:601px) and (max-width: 769px){ 
+
+    .mediumResFooter{
+        padding: 0px !important;
+    }
+
+    .mediumResText{
+        font-size: 11px !important;
+    }
+
+    .mediumKontakRes{
+        font-size: 15px !important;
+    }
+
+    .imgResponse{
+        height: 700px !important;
+    }
+
+    .slideFont{
+        font-size: 55px;
+        line-height: 55px;
+        width: 320px;
+        background-color: transparent;
+        color: #ffffff;
+        font-weight: 800;
+        font-family: open-sans, sans-serif;
+    }
+
+    .responseArrow{
+        width: 0px;
+        height: 0px;
+    }
+
+
+    .scrollerPadding{
+        padding-bottom: 20px;
+    }
+}
+
